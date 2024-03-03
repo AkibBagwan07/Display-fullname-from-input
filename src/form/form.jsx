@@ -9,10 +9,10 @@ export default function Form() {
       }}
     >
       <h1>Full Name Display</h1>
-      <label htmlFor="">First Name:</label>
+      <label htmlFor="firstName">First Name:</label>
       <input required type="text" name="firstName" />
       <br />
-      <label htmlFor="">Last Name:</label>
+      <label htmlFor="lastName">Last Name:</label>
       <input required type="text" name="lastName" />
       <br />
       <button type="submit">submit</button>
