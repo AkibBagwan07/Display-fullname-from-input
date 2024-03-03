@@ -15,7 +15,7 @@ export default function Form() {
       <label htmlFor="">Last Name:</label>
       <input required type="text" name="lastName" />
       <br />
-      <button>submit</button>
+      <button type="submit">submit</button>
       <p>Full Name: {fullname}</p>
     </form>
   );
