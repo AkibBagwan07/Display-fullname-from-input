@@ -16,7 +16,7 @@ export default function Form() {
       <input required type="text" name="lastName" />
       <br />
       <button type="submit">submit</button>
-      <p>Full Name: {fullname}</p>
+      {fullname.length ? <p>Full Name: {fullname}</p> : ""}
     </form>
   );
 }
